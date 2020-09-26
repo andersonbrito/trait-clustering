@@ -29,17 +29,18 @@ if __name__ == '__main__':
     output = args.output
 
 
-    # metadata = path + 'metadata_short.tsv'
+    # path = '/Users/anderson/GLab Dropbox/Anderson Brito/projects/ncov_immune/nextstrain/run1_test/pre-analyses/'
+    # metadata = path + 'metadata_geo.tsv'
     # coordinates = path + 'latlongs.tsv'
     # geoscheme = path + 'geoscheme.tsv'
     # grid = path + 'colour_grid.html'
-    # columns = ['region', 'country', 'division', 'location']
+    # columns = ['region_exposure', 'country_exposure', 'division_exposure', 'location']
     # output = path + 'colors.tsv'
 
 
     # pre-determined HEX colours and hues
-    force_colour = {'Connecticut': '#8FEECB', 'New York': '#19ae77', 'Canada': '#663300'}
-    force_hue = {'North America': 0, 'South America': 40}
+    force_colour = {}
+    force_hue = {'North America': 0}
 
     # content to be exported as final result
     latlongs = {trait: {} for trait in columns}
@@ -77,15 +78,16 @@ if __name__ == '__main__':
 
 
     ''' REORDER LOCATIONS FOR LEGEND FORMATTING '''
-
+    print('\n### Parsing metadata...\n')
     # open metadata file as dataframe
     dfN = pd.read_csv(metadata, encoding='utf-8', sep='\t', dtype=str)
-    dfN = dfN[['region', 'country', 'division', 'location', 'update']]
+    dfN = dfN[['region_exposure', 'country_exposure', 'division_exposure', 'location']]
 
     ordered_regions = {}
     dcountries = {}
     places = []
     pinpoints = [dfN[trait].values.tolist() for trait in columns]
+    print('\tStep 1. Setting colours for \'' + columns[0] + '\' level...')
     for region_index in latlongs[columns[0]]:
         for address in zip(*pinpoints):
             address = list(address)
@@ -95,7 +97,7 @@ if __name__ == '__main__':
             division_name = address[2]
             location_name = address[3]
             places.append(address)
-
+            # print(address)
             if region_index == region_name:
                 if 'subcontinent' not in ordered_regions.keys():
                     ordered_regions['subcontinent'] = {}
@@ -110,13 +112,13 @@ if __name__ == '__main__':
                         if country_name not in dcountries[region_name].keys():
                             dcountries[region_name].update({country_name: latlongs[country][country_name]})
 
-
-
     # sort division entries based on sorted country entries
+    print('\tStep 2. Setting colours for \'' + columns[1] + '\' level...')
     ordered_countries = {}
     for region, countries in dcountries.items():
         ordered_countries[region] = {k: v for k, v in sorted(countries.items(), key=lambda item: item[1])}
 
+    print('\tStep 3. Setting colours for \'' + columns[2] + '\' level...')
     ddivisions = {}
     for country_index in [key for dict_ in ordered_countries.values() for key in dict_]:
         for address in places:
@@ -140,8 +142,6 @@ if __name__ == '__main__':
     for country, divisions in ddivisions.items():
         ordered_divisions[country] = {k: v for k, v in sorted(divisions.items(), key=lambda item: item[1])}
 
-
-
     dlocations = {}
     for division_index in [key for dict_ in ordered_divisions.values() for key in dict_]:
         for address in places:
@@ -158,6 +158,8 @@ if __name__ == '__main__':
                     else:
                         if location_name not in dlocations[division_name].keys():
                             dlocations[division_name].update({location_name: latlongs[location][location_name]})
+
+    print('\tStep 4. Setting colours for \'' + columns[3] + '\' level...')
 
     # sort locations entries based on sorted division entries
     ordered_locations = {}
@@ -228,7 +230,7 @@ if __name__ == '__main__':
     for line in scheme_list:
         if not line.startswith('\n'):
             type = line.split('\t')[0]
-            if type == 'region':
+            if type == 'region_exposure':
                 continent = line.split('\t')[1]
                 region = line.split('\t')[2]
                 if region in sampled_region:
@@ -241,7 +243,7 @@ if __name__ == '__main__':
 
     ''' IMPORT COLOUR SCHEME '''
 
-    print('\nGenerating colour scheme...\n')
+    print('\n### Generating colour scheme...\n')
     html = BS(open(grid, "r").read(), 'html.parser')
     tables = html.find_all('table')
 
@@ -304,29 +306,7 @@ if __name__ == '__main__':
             colour_wheel[region] = hue_to_hex[palette[region]]
 
 
-
-    ''' SET COLOUR SCHEME FOR UPDATES '''
-
-    # convert a hue value into an rgb colour, and then hex colour
-    def hue_to_rgb(hue):
-        colour = int(hue / 240 * 255)
-        # print(colour)
-        luminance = 0.7
-        rgb = [c * 255 * luminance for c in list(cm.jet(colour))[:-1]]
-        # print(rgb)
-        return RGB_to_hex(rgb)
-
-    dfN['update'].fillna('X', inplace=True)
-    list_updates = [up_number for up_number in sorted(set(dfN['update'].to_list())) if up_number != 'X']
-    list_hex = list([hue_to_rgb(int(x)) for x in np.linspace(30, 240, len(list_updates)*2, endpoint=True)])
-    skip_hex = [h for n, h in enumerate(list_hex) if n in range(0, len(list_hex), 2)]
-
     results = {trait: {} for trait in columns}
-    results['update'] = {}
-    for update, hex in zip(list_updates, skip_hex):
-        results['update'].update({update: hex})
-        print(update, hex)
-
 
 
     ''' APPLY SAME HUE FOR MEMBERS OF THE SAME SUB-CONTINENT '''
@@ -388,8 +368,8 @@ if __name__ == '__main__':
             gradient = linear_gradient(start, end, len(regions))
 
         for region, colour in zip(regions, gradient):
-            print('region', region, colour)
-            results['region'].update({region: colour})
+            print('region_exposure', region, colour)
+            results['region_exposure'].update({region: colour})
 
     # define gradients for country
     for hue, countries in country_colours.items():
@@ -400,8 +380,8 @@ if __name__ == '__main__':
         else:
             gradient = linear_gradient(start, end, len(countries))
         for country, colour in zip(countries, gradient):
-            print('country', country, colour)
-            results['country'].update({country: colour})
+            print('country_exposure', country, colour)
+            results['country_exposure'].update({country: colour})
 
     # define gradients for divisions
     for hue, divisions in division_colours.items():
@@ -412,8 +392,8 @@ if __name__ == '__main__':
         else:
             gradient = linear_gradient(start, end, len(divisions))
         for division, colour in zip(divisions, gradient):
-            print('division', division, colour)
-            results['division'].update({division: colour})
+            print('division_exposure', division, colour)
+            results['division_exposure'].update({division: colour})
 
     # define gradients for locations
     for hue, locations in location_colours.items():
@@ -426,14 +406,6 @@ if __name__ == '__main__':
         for location, colour in zip(locations, gradient):
             print('location', location, colour)
             results['location'].update({location: colour})
-
-
-    # special colouring, hardcoded
-    area = {'International': '#b3914d', 'Other US areas': '#3d668f', 'New England': '#8f3d3d'}
-    results['area'] = {}
-    for cat, hex in area.items():
-        results['area'].update({cat: hex})
-        print('area', cat, hex)
 
 
     ''' EXPORT COLOUR FILE '''

@@ -25,13 +25,16 @@ if __name__ == '__main__':
     cache = args.cache
     output = args.output
 
+    # path = '/Users/anderson/GLab Dropbox/Anderson Brito/projects/ncov_immune/nextstrain/run1_test/pre-analyses/'
     # metadata = path + 'metadata_geo.tsv'
     # geoscheme = path + "geoscheme.tsv"
-    # columns = ['region', 'country', 'division', 'location']
+    # columns = ['region_exposure', 'country_exposure', 'division_exposure', 'location']
     # cache = path + 'cache_coordinates.tsv'
     # output = path + 'latlongs.tsv'
 
-    force_coordinates = {'Washington DC': ('38.912708', '-77.009223'), 'New-York-State': ('43.1561681', '-75.8449946')}
+    force_coordinates = {'Washington DC': ('38.912708', '-77.009223'), 'New-York-State': ('43.1561681', '-75.8449946'),
+                         'Puerto Rico': ('18.235853', '-66.522056'), 'Virgin Islands': ('17.727304', '-64.748327'),
+                         'Indiana': ('39.768534', '-86.158011')}
 
     results = {trait: {} for trait in columns}  # content to be exported as final result
 
@@ -69,7 +72,7 @@ if __name__ == '__main__':
                         results[type].update(coordinates)
                         dont_search.append(subarea)
                     country_name = subarea.split('-')[0]
-                    if type == 'country' and country_name not in set_countries:
+                    if type == 'country_exposure' and country_name not in set_countries:
                         set_countries.append(country_name)
                 except:
                     pass
@@ -91,9 +94,9 @@ if __name__ == '__main__':
     dfN = pd.read_csv(metadata, encoding='utf-8', sep='\t')
 
     queries = []
-    pinpoints = [dfN[trait].values.tolist() for trait in columns if trait != 'region']
+    pinpoints = [dfN[trait].values.tolist() for trait in columns if trait != 'region_exposure']
     for address in zip(*pinpoints):
-        traits = [trait for trait in columns if trait != 'region']
+        traits = [trait for trait in columns if trait != 'region_exposure']
         for position, place in enumerate(address):
             level = traits[position]
             query = list(address[0:position + 1])
@@ -106,7 +109,7 @@ if __name__ == '__main__':
         if target not in ['', 'NA', 'NAN', 'unknown', '-', np.nan, None]:
             try:
                 if place[0].split('-')[0] in set_countries:
-                    country_short = place[0].split('-')[0]  # correcting TSV pre-defined country names
+                    country_short = place[0].split('-')[0]  # correcting TSV pre-defined country_exposure names
                     place[0] = country_short
             except:
                 pass
@@ -151,7 +154,7 @@ if __name__ == '__main__':
     if len(not_found) > 1:
         print('\n### WARNING! Some coordinates were not found (see below).'
               '\nTypos or especial characters in place names my explain such errors.'
-              '\nPlease fix them, and run the script again, or add coordinates manually:\n')
+              '\nPlease fix them, and run the script again, or add coordinates manually at \'cache_coordinates.tsv\'.\n')
         for trait, address in not_found:
             print(trait + ': ' + address)
 
