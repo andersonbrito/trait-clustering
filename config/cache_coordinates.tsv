@@ -1,0 +1,793 @@
+region_exposure	Oceania	-32.395085	152.518443
+region_exposure	Eastern Asia	32.974946	103.95701
+region_exposure	Southeastern Asia	3.96578	108.343168
+region_exposure	Southern Asia	27.961237	71.898465
+region_exposure	Central Asia	43.735259	64.932677
+region_exposure	Western Asia	32.154283	39.200932
+region_exposure	Northern Europe	60.29676	-1.280624
+region_exposure	Western Europe	49.469435	6.367516
+region_exposure	Eastern Europe	52.111961	31.781771
+region_exposure	Southern Europe	41.315616	9.202824
+region_exposure	Northern Africa	27.568083	9.819491
+region_exposure	Western Africa	11.900251	2.404138
+region_exposure	Middle Africa	-2.494433	21.016337
+region_exposure	Eastern Africa	-2.139111	36.089406
+region_exposure	Southern Africa	-25.274833	23.448701
+region_exposure	South America	-20.172215	-58.168541
+region_exposure	Central America	17.136938	-93.867420
+region_exposure	Caribbean	18.087038	-67.891559
+region_exposure	North America	49.384464	-95.153337
+
+country_exposure	Algeria	28.0000272	2.9999825
+country_exposure	Argentina	-34.9964963	-64.9672817
+country_exposure	China	35.000074	104.999927
+country_exposure	Australia	-24.7761086	134.755
+country_exposure	Iran	32.6475314	54.5643516
+country_exposure	Austria	47.2000338	13.199959
+country_exposure	Italy	42.6384261	12.674297
+country_exposure	Bangladesh	24.4768783	90.2932426
+country_exposure	USA	39.7837304	-100.4458825
+country_exposure	Germany	51.0834196	10.4234469
+country_exposure	Spain	39.3262345	-4.8380649
+country_exposure	Canada	61.0666922	-107.9917071
+country_exposure	France	46.603354	1.8883335
+country_exposure	Greece	38.9953683	21.9877132
+country_exposure	Hungary	47.1817585	19.5060937
+country_exposure	United Kingdom	54.7023545	-3.2765753
+country_exposure	Mexico	19.4326296	-99.1331785
+country_exposure	Norway	64.5731537	11.52803643954819
+country_exposure	Pakistan	30.3308401	71.247499
+country_exposure	Belgium	50.6402809	4.6667145
+country_exposure	Niger	17.7356214	9.3238432
+country_exposure	Democratic Republic of the Congo	-2.9814344	23.8222636
+country_exposure	Bosnia and Herzegovina	44.3053476	17.5961467
+country_exposure	Brazil	-10.3333333	-53.2
+country_exposure	Bulgaria	42.6073975	25.4856617
+country_exposure	Cameroon	4.6125522	13.1535811
+country_exposure	Chile	-31.7613365	-71.3187697
+country_exposure	Colombia	2.8894434	-73.783892
+country_exposure	Costa Rica	10.2735633	-84.0739102
+country_exposure	Croatia	45.5643442	17.0118954
+country_exposure	Cyprus	34.9823018	33.1451285
+country_exposure	Czech Republic	49.8167003	15.4749544
+country_exposure	Denmark	55.670249	10.3333283
+country_exposure	Dominican Republic	19.0974031	-70.3028026
+country_exposure	Ecuador	-1.3397668	-79.3666965
+country_exposure	Egypt	26.2540493	29.2675469
+country_exposure	Gambia	13.470062	-15.4900464
+country_exposure	Georgia	41.6809707	44.0287382
+country_exposure	Guam	13.450125700000001	144.75755102972062
+country_exposure	Hong Kong	22.2793278	114.1628131
+country_exposure	India	22.3511148	78.6677428
+country_exposure	Indonesia	-2.4833826	117.8902853
+country_exposure	Israel	31.5313113	34.8667654
+country_exposure	Japan	36.5748441	139.2394179
+country_exposure	Kazakhstan	47.2286086	65.2093197
+country_exposure	Kuwait	29.2733964	47.4979476
+country_exposure	Lebanon	33.8750629	35.843409
+country_exposure	Malaysia	4.5693754	102.2656823
+country_exposure	Moldova	47.2879608	28.5670941
+country_exposure	Mongolia	46.8250388	103.8499736
+country_exposure	Morocco	31.1728205	-7.3362482
+country_exposure	Myanmar	17.1750495	95.9999652
+country_exposure	Nigeria	9.6000359	7.9999721
+country_exposure	Oman	21.0000287	57.0036901
+country_exposure	Panama	8.559559	-81.1308434
+country_exposure	Europe	51.0	10.0
+country_exposure	Peru	-6.8699697	-75.0458515
+country_exposure	Philippines	12.7503486	122.7312101
+country_exposure	Poland	52.215933	19.134422
+country_exposure	Portugal	40.0332629	-7.8896263
+country_exposure	Romania	45.9852129	24.6859225
+country_exposure	Russia	64.6863136	97.7453061
+country_exposure	Saudi Arabia	25.6242618	42.3528328
+country_exposure	Senegal	14.4750607	-14.4529612
+country_exposure	Singapore	1.2904753	103.8520359
+country_exposure	Slovakia	48.7411522	19.4528646
+country_exposure	South Africa	-28.8166236	24.991639
+country_exposure	Sri Lanka	7.5554942	80.7137847
+country_exposure	Sweden	59.6749712	14.5208584
+country_exposure	Taiwan	23.9739374	120.9820179
+country_exposure	Ireland	52.865196	-7.9794599
+country_exposure	Turkey	38.9597594	34.9249653
+country_exposure	Uruguay	-32.8755548	-56.0201525
+country_exposure	Venezuela	8.0018709	-66.1109318
+country_exposure	Vietnam	13.2904027	108.4265113
+country_exposure	Kosovo	42.5869578	20.9021231
+country_exposure	Serbia	44.024322850000004	21.07657433209902
+country_exposure	United Arab Emirates	24.0002488	53.9994829
+country_exposure	South America	-21.0002179	-61.0006565
+
+division_exposure	Boufarik	36.5755523	2.9128963
+division_exposure	Blida	36.4701645	2.8287985
+division_exposure	Cordoba AR	-31.2244259	-65.3016865
+division_exposure	Hubei	31.15172525	112.87832224656043
+division_exposure	China	35.000074	104.999927
+division_exposure	New South Wales	-31.8759835	147.2869493
+division_exposure	Iran	32.6475314	54.5643516
+division_exposure	Queensland	-22.1646782	144.5844903
+division_exposure	Austria	47.2000338	13.199959
+division_exposure	Tyrol	47.223193	11.5261028
+division_exposure	Salzburg	47.7981346	13.0464806
+division_exposure	Vienna	48.2083537	16.3725042
+division_exposure	South Tyrol	46.65594215	11.229637264169462
+division_exposure	Styria	47.2500001	15.1666665
+division_exposure	Burgenland	47.5000001	16.4166666
+division_exposure	Bangladesh	24.4768783	90.2932426
+division_exposure	Dhaka	23.810651	90.4126466
+division_exposure	Chattogram	22.3307998	91.8412863
+division_exposure	Beijing	39.906217	116.3912757
+division_exposure	Massachusetts	42.358796	-71.0577937
+division_exposure	Bavaria	48.9467562	11.4038717
+division_exposure	Madrid	40.4167047	-3.7035825
+division_exposure	Catalunya	41.8523094	1.5745043
+division_exposure	Ontario	50.000678	-86.000977
+division_exposure	Ile de France	48.6443057	2.7537863
+division_exposure	Athens	37.9839412	23.7283052
+division_exposure	Central Hungary	47.4198296	19.3536689
+division_exposure	Lombardy	45.6209	9.768893
+division_exposure	England	52.7954791	-0.5402402866174321
+division_exposure	Mexico City	19.4326296	-99.1331785
+division_exposure	Oslo	59.9133301	10.7389701
+division_exposure	Islamabad	33.6938118	73.0651511
+division_exposure	Tehran	35.7006177	51.4013785
+division_exposure	New York	43.1561681	-75.8449946
+division_exposure	Minnesota	45.9896587	-94.6113288
+division_exposure	Washington	47.2868352	-120.2126139
+division_exposure	Brussels	50.8465573	4.351697
+division_exposure	Leuven	50.879202	4.7011675
+division_exposure	Sint-Niklaas	51.1646685	4.1395124
+division_exposure	Italy	42.6384261	12.674297
+division_exposure	Turnhout	51.3233812	4.948461
+division_exposure	Huy	50.5180856	5.2408138
+division_exposure	Antwerpen	51.2211097	4.3997081
+division_exposure	Niger	17.7356214	9.3238432
+division_exposure	Democratic Republic of the Congo	-2.9814344	23.8222636
+division_exposure	Liège	50.6451381	5.5734203
+division_exposure	Livno	43.8259136	17.0042416
+division_exposure	Čelinac	44.7241731	17.319359
+division_exposure	Tuzla	44.5391105	18.675193
+division_exposure	Sarajevo	43.8519774	18.3866868
+division_exposure	Acre	-9.0478679	-70.5264976
+division_exposure	Amazonas	-4.479925	-63.5185396
+division_exposure	Amapa	1.3545442	-51.9161977
+division_exposure	Maranhão	-5.2085503	-45.3930262
+division_exposure	Minas Gerais	-18.5264844	-44.1588654
+division_exposure	Mato Grosso	-12.2115009	-55.5716547
+division_exposure	Para	-4.7493933	-52.8973006
+division_exposure	Pernambuco	-8.4116316	-37.5919699
+division_exposure	Paraná	-24.4842187	-51.8148872
+division_exposure	Rio de Janeiro	-22.9110137	-43.2093727
+division_exposure	São Paulo	-23.5506507	-46.6333824
+division_exposure	Rondonia	-10.943145	-62.8277863
+division_exposure	Distrito Federal	-15.7754462	-47.7970891
+division_exposure	United Kingdom	54.7023545	-3.2765753
+division_exposure	USA	39.7837304	-100.4458825
+division_exposure	Sofia	42.6978634	23.3221789
+division_exposure	Yaounde	3.8689867	11.5213344
+division_exposure	Alberta	55.001251	-115.002136
+division_exposure	Talca	-35.4266305	-71.6661153
+division_exposure	Chongqing	29.5585712	106.5492822
+division_exposure	Risaralda	5.2102948	-75.9842236
+division_exposure	Bolivar	9.0	-74.333333
+division_exposure	Quindio	4.3435926	-75.7232898
+division_exposure	Magdalena	10.0000085	-74.5000086
+division_exposure	Cesar	9.3333415	-73.5000086
+division_exposure	Cundinamarca	5.0000086	-74.1666756
+division_exposure	Atlantico	10.7500084	-75.0000086
+division_exposure	Soledad	10.905451549999999	-74.77405314080215
+division_exposure	Tunja	5.5323632	-73.361362
+division_exposure	Boyaca	5.6278979	-72.8268617
+division_exposure	Santander de Quilichao	3.0075752	-76.4856531
+division_exposure	Pasto	1.2146286	-77.2782516
+division_exposure	Cienaga de Oro	8.8746769	-75.6210036
+division_exposure	Meta	3.5000086	-73.0000086
+division_exposure	Suesca	5.1032558	-73.7999769
+division_exposure	Bogota	4.59808	-74.0760439
+division_exposure	Valle del Cauca	4.0639569	-76.12337674536764
+division_exposure	Caldas	5.3302514	-75.2873471
+division_exposure	Narino	1.5	-78.0000086
+division_exposure	Choco	6.0000085	-77.0000086
+division_exposure	Huila	2.4738993	-75.5900113
+division_exposure	Tolima	3.7500086	-75.2500086
+division_exposure	Antioquia	7.153843350000001	-75.444040009994
+division_exposure	Norte de Santander	8.4417924	-73.0492505
+division_exposure	Cordoba CO	8.2705299	-75.0094657
+division_exposure	Santander	7.0000085	-73.2500086
+division_exposure	Cauca	2.715645	-76.662665
+division_exposure	Cartago CO	4.7113384499999995	-75.93193308901687
+division_exposure	Tolemaida	4.2448718	-74.6580418
+division_exposure	Alajuela	10.6916755	-84.7561318
+division_exposure	Heredia	10.3768307	-84.068391
+division_exposure	San Jose	9.9325427	-84.0795782
+division_exposure	Florida	27.7567667	-81.4639835
+division_exposure	Spain	39.3262345	-4.8380649
+division_exposure	Mexico	19.4326296	-99.1331785
+division_exposure	France	46.603354	1.8883335
+division_exposure	Cartago CR	9.8642435	-83.9204377
+division_exposure	Split	43.5116383	16.4399659
+division_exposure	Koprivnica	46.162944	16.8319162
+division_exposure	Istria	45.189301799999996	13.918255998031015
+division_exposure	Dubrovnik	42.6502473	18.0924947
+division_exposure	Varazdin	46.308029	16.3377904
+division_exposure	Pula	44.8701965	13.8455407
+division_exposure	Osijek	45.5548753	18.6953593
+division_exposure	Varaždin County	46.2572752	16.2900851
+division_exposure	Cyprus	34.9823018	33.1451285
+division_exposure	Vysocina Region	49.399409649999996	15.570471215163911
+division_exposure	Prague	50.0874654	14.4212535
+division_exposure	Trentino	46.102817	11.129543099871789
+division_exposure	Olomouc Region	49.859105799999995	16.956126746749305
+division_exposure	Hranice Na Moravě	49.5653738	17.7417888
+division_exposure	Zlin	49.226766	17.6667415
+division_exposure	Plzeň Region	49.522810199999995	13.206311785137638
+division_exposure	Usti nad Labem	50.6603327	14.0381357
+division_exposure	Jihlava	49.396064	15.5903065
+division_exposure	Kinshasa	-4.3217055	15.3125974
+division_exposure	Copenhagen	55.6867243	12.5700724
+division_exposure	Dominican Republic	19.0974031	-70.3028026
+division_exposure	Pichincha	-0.0584893	-78.3284371
+division_exposure	Guayas	-2.0	-80.0
+division_exposure	Los Rios	-1.4941273	-79.5542485
+division_exposure	Chimborazo	-1.9262626	-78.7297799
+division_exposure	Imbabura	0.3753621	-78.355681
+division_exposure	Cairo	30.048819	31.243666
+division_exposure	Egypt	26.2540493	29.2675469
+division_exposure	Kalyoubia	30.3	31.3
+division_exposure	Provence-Alpes-Côte d'Azur	44.0580563	6.0638506
+division_exposure	Bretagne	48.16282835	-2.684147344521837
+division_exposure	Bourgogne-France-Comté	46.8849612	4.3214121
+division_exposure	Bourgogne	47.27808725	4.222486304306048
+division_exposure	Centre-Val de Loire	47.5490251	1.7324062
+division_exposure	Grand Est	48.4845157	6.113035
+division_exposure	Hauts de France	50.1024606	2.7247515
+division_exposure	Auvergne-Rhône-Alpes	45.2968119	4.6604809
+division_exposure	Normandie	49.0677708	0.3138532
+division_exposure	Pays de la Loire	47.6594864	-0.8186143
+division_exposure	Fujian	26.5450001	117.842778
+division_exposure	Jiangxi	28.0	116.0
+division_exposure	Kombo	13.3655269	-16.6693511
+division_exposure	Tbilisi	41.6934591	44.8014495
+division_exposure	Niedersachsen	52.8398531	9.075962
+division_exposure	Frankfurt	50.1106444	8.6820917
+division_exposure	Central Greece	38.58000405	23.151988380646536
+division_exposure	Thessaloniki	40.6403167	22.9352716
+division_exposure	Guam	13.450125700000001	144.75755102972062
+division_exposure	Guangdong	23.1357694	113.1982688
+division_exposure	Zhejiang	29.0000001	119.9999999
+division_exposure	Henan	34.0000001	113.9999999
+division_exposure	Hong Kong	22.2793278	114.1628131
+division_exposure	Balassagyarmat	48.0768832	19.2926037
+division_exposure	Baranya	45.9714436	18.1669246
+division_exposure	Kecskemet	46.9080769	19.6928133
+division_exposure	Szeged	46.2546312	20.1486016
+division_exposure	Delhi	28.6517178	77.2219388
+division_exposure	Gujarat	22.3850008	71.7452633
+division_exposure	Haryana	29.0	76.0
+division_exposure	Karnataka	14.5203896	75.7223521
+division_exposure	Maharashtra	19.531932	76.0554568
+division_exposure	Madhya Pradesh	23.9699282	79.39486954625225
+division_exposure	Rajasthan	26.8105777	73.7684549
+division_exposure	Telangana	17.8495919	79.1151663
+division_exposure	India	22.3511148	78.6677428
+division_exposure	Uttar Pradesh	27.1303344	80.859666
+division_exposure	West Java	-6.8891904	107.6404716
+division_exposure	Jakarta	-6.1753942	106.827183
+division_exposure	Banten	-6.47800285	105.54102849016589
+division_exposure	Special Region of Yogyakarta	-7.9778383999999996	110.36722565020224
+division_exposure	Semnan	35.3843145	54.6209302
+division_exposure	Israel	31.5313113	34.8667654
+division_exposure	Aichi	35.1219442	137.081740723195
+division_exposure	Japan	36.5748441	139.2394179
+division_exposure	Kyoto	35.021041	135.7556075
+division_exposure	Nara	34.2963089	135.8816819
+division_exposure	Saitama	35.8616402	139.6457957
+division_exposure	Chiba	35.609985	140.118126
+division_exposure	Hokkaido	43.4603175	143.33071579283663
+division_exposure	Kanto	35.30289995	139.83402816219004
+division_exposure	Kansai	34.69561195	135.54573383518058
+division_exposure	Kyusyu	33.350702999999996	129.68258925685095
+division_exposure	Hokuriku	36.5678047	136.6543387
+division_exposure	Chubu	34.9692957	136.6241021
+division_exposure	Tohoku	40.7279915	141.2579371
+division_exposure	Tokyo	35.6828387	139.7594549
+division_exposure	Jiangsu	33.0000001	119.9999999
+division_exposure	Nur-Sultan	51.1282205	71.4306682
+division_exposure	Kuwait	29.2733964	47.4979476
+division_exposure	Beirut	33.8959203	35.47843
+division_exposure	Kuala Lumpur	3.1516964	101.6942371
+division_exposure	Pahang	3.6278466	102.5870951
+division_exposure	Selangor	3.2083304	101.304146
+division_exposure	Malaysia	4.5693754	102.2656823
+division_exposure	Baja California	30.0338923	-115.1425107
+division_exposure	Baja California Sur	25.5818014	-111.5706164
+division_exposure	Chihuahua	28.5000001	-106.0000001
+division_exposure	Chiapas	16.5000001	-92.5000001
+division_exposure	Coahuila	27.3333331	-102.0000001
+division_exposure	Durango	24.833333	-104.833333
+division_exposure	Argentina	-34.9964963	-64.9672817
+division_exposure	Guerrero	17.666667	-100.0
+division_exposure	Guanajuato	20.9876996	-101.0
+division_exposure	Guadalajara	20.6720375	-103.3383962
+division_exposure	Jalisco	20.3333331	-103.6666671
+division_exposure	Morelos	18.75	-99.0
+division_exposure	Nayarit	21.8438765	-104.87148535201122
+division_exposure	Puebla	18.833333	-98.0
+division_exposure	Queretaro	20.8542575	-99.84756
+division_exposure	Quintana Roo	19.6666671	-88.5000001
+division_exposure	Sinaloa	25.0000001	-107.5000001
+division_exposure	Sonora	29.3333331	-110.6666671
+division_exposure	Tabasco	17.95078635	-92.48312213241397
+division_exposure	Tamaulipas	23.9891553	-98.7026825
+division_exposure	Yucatan	20.6845957	-88.8755669
+division_exposure	Chisinau	47.0244707	28.8322534
+division_exposure	Balti	47.7664144	27.9032992
+division_exposure	Rezina	47.7485938	28.9507249
+division_exposure	Straseni	47.146331	28.6148909
+division_exposure	Mongolia	46.8250388	103.8499736
+division_exposure	Morocco	31.1728205	-7.3362482
+division_exposure	Rabat	34.022405	-6.834543
+division_exposure	Yangon	16.7967129	96.1609916
+division_exposure	Ekiti State	9.0311972	7.521753
+division_exposure	Kwara State	8.8367891	4.6688487
+division_exposure	Ogun State	7.139576	3.3450438
+division_exposure	Ondo State	7.0209686	5.0567477
+division_exposure	Osun State	7.5484047	4.4978307
+division_exposure	Oyo State	8.2151249	3.5642897
+division_exposure	Muscat	23.5997857	58.5451305
+division_exposure	Panama Center	48.362094850000005	1.1355489567075578
+division_exposure	Europe	51.0	10.0
+division_exposure	Puerto Rico	18.235853	-66.522056
+division_exposure	Germany	51.0834196	10.4234469
+division_exposure	Panama Oeste	5.2818859	9.9756458
+division_exposure	Colon	9.3553005	-79.8974085
+division_exposure	Santiago de Veraguas	8.0989867	-80.9803978
+division_exposure	Cocle	8.4604873	-80.4305652
+division_exposure	Chiriqui	8.3971129	-82.3223443
+division_exposure	Guna Yala	9.195840449999999	-77.8852762642306
+division_exposure	Bocas del Toro	9.3040914	-82.12843877974339
+division_exposure	Herrera	7.8432774	-80.75877048589277
+division_exposure	Los Santos	7.87734705	-80.42906166183488
+division_exposure	Lima	-12.0621065	-77.0365256
+division_exposure	Loreto	-5.0	-75.0
+division_exposure	National Capital Region	14.5736108	121.0329706
+division_exposure	Zielonogorskie	51.97570785	15.763518206868333
+division_exposure	Pomorskie	54.24556	18.1099
+division_exposure	Slask	50.5687422	19.2343995
+division_exposure	Dolnoslaskie	50.95083795	16.36124870197179
+division_exposure	Portugal	40.0332629	-7.8896263
+division_exposure	Bucharest	44.4361414	26.1027202
+division_exposure	Constanta	44.1767161	28.6507598
+division_exposure	Arges	44.994993550000004	24.848632440149892
+division_exposure	Buzau	45.26925815	26.7748172789942
+division_exposure	Vrancea	45.78870885	26.883802968755305
+division_exposure	Suceava	47.53251675	25.81880138793225
+division_exposure	Mioveni	44.9566154	24.9377507
+division_exposure	Valcea	45.0404536	24.15387190277292
+division_exposure	Moscow	55.7504461	37.6174943
+division_exposure	Novosibirsk Oblast	54.9720169	79.4813924
+division_exposure	Saint-Petersburg	59.938732	30.316229
+division_exposure	Jeddah	21.5810088	39.1653612
+division_exposure	Madinah	24.471153	39.6111216
+division_exposure	Makkah	21.420847	39.826869
+division_exposure	Dakar	14.693425	-17.447938
+division_exposure	Touba	14.864559	-15.876047
+division_exposure	St-Louis	16.187637	-15.2954315
+division_exposure	Mbour	14.411794	-16.9657124
+division_exposure	Kolda	13.1291507	-14.418147374323599
+division_exposure	Thies	14.7948093	-16.9529272
+division_exposure	Shandong	36.0000001	118.9999999
+division_exposure	Shanghai	31.2322758	121.4692071
+division_exposure	Sichuan	30.5000001	102.4999999
+division_exposure	Singapore	1.2904753	103.8520359
+division_exposure	Kostoliste	48.4450588	16.9832918
+division_exposure	Bratislava	48.1516988	17.1093063
+division_exposure	Martin	49.0724921	18.929193
+division_exposure	KwaZulu-Natal	-28.503833	30.8875009
+division_exposure	Gauteng	-25.9363439	28.0813105
+division_exposure	Aragon	41.3787291	-0.7639373
+division_exposure	Andalusia	37.3399964	-4.5811614
+division_exposure	Canary Islands	28.2935785	-16.621447121144122
+division_exposure	Castilla la Mancha	39.4177902	-2.6232332
+division_exposure	Castilla y Leon	41.8037172	-4.7471726
+division_exposure	Galicia	42.61946	-7.863112
+division_exposure	Basque Country	42.728653050000005	-1.97383746697463
+division_exposure	La Rioja	42.3285528	-2.4674917
+division_exposure	Melilla	35.2919028	-2.9407146
+division_exposure	Comunitat Valenciana	39.6819591	-0.7654406
+division_exposure	Sri Lanka	7.5554942	80.7137847
+division_exposure	Stockholm	59.3251172	18.0710935
+division_exposure	Uppsala	59.8586126	17.6387436
+division_exposure	Tainan	22.9912348	120.184982
+division_exposure	Taiwan	23.9739374	120.9820179
+division_exposure	Philippines	12.7503486	122.7312101
+division_exposure	Ireland	52.865196	-7.9794599
+division_exposure	Turkey	38.9597594	34.9249653
+division_exposure	Czech Republic	49.8167003	15.4749544
+division_exposure	Poland	52.215933	19.134422
+division_exposure	Indonesia	-2.4833826	117.8902853
+division_exposure	New Taipei City	25.072134249999998	121.67991896754117
+division_exposure	Istanbul	41.0096215	28.9651867
+division_exposure	Kayseri	38.6582232	35.5546374
+division_exposure	Kocaeli	40.8216536	29.9507184
+division_exposure	Kars Province	40.6076749	43.0948497
+division_exposure	Sakarya	40.7542228	30.3834858
+division_exposure	Adıyaman	37.78936	38.3141101
+division_exposure	Mardin	37.3414854	40.7476249
+division_exposure	California	34.056324	-117.1817339
+division_exposure	Louisiana	30.8703881	-92.007126
+division_exposure	Montana	46.402026649999996	-105.86368251764148
+division_exposure	South Carolina	33.6874388	-80.4363743
+division_exposure	Texas	29.88836715	-97.94477272012038
+division_exposure	Montevideo	-34.9059039	-56.1913569
+division_exposure	Venezuela	8.0018709	-66.1109318
+division_exposure	Ho Chi Minh City	10.7758439	106.7017555
+division_exposure	Lao Cai	22.2967657	104.0566164
+division_exposure	Wales	52.2928116	-3.73893
+division_exposure	Yunnan	25.0	102.0
+division_exposure	Departamento de Amazonas	-5.7562597	-78.4549005
+division_exposure	Faroe Islands	54.95007595	11.990187202288263
+division_exposure	Western Pomerania	53.84713085	13.351339006164036
+division_exposure	Pest County	47.3715943	19.3452624
+division_exposure	Borsod-Abaúj-Zemplén County	48.2397936	21.1353474
+division_exposure	East Java	-7.6977397	112.4914199
+division_exposure	Central Java	-5.6259648	110.37164897312938
+division_exposure	East Kalimantan	0.7884397	116.2419977
+division_exposure	North Sulawesi	0.6555692	124.090151
+division_exposure	Apulia	40.9842539	16.6210027
+division_exposure	Campania	40.860672	14.843984
+division_exposure	Friuli Venezia Giulia	46.151042	13.055904
+division_exposure	Kosovo	42.5869578	20.9021231
+division_exposure	Serbia	44.024322850000004	21.07657433209902
+division_exposure	Lazio	41.9808038	12.7662312
+division_exposure	Veneto	45.6476663	11.8665254
+division_exposure	Colombo	6.9349969	79.8538463
+division_exposure	Kalutara	6.5835219	79.9612508
+division_exposure	Abu Dhabi	24.4747961	54.3705762
+division_exposure	Dubai	25.0750095	55.18876088183319
+division_exposure	Sharja	25.3525369	55.4378628
+division_exposure	South America	-21.0002179	-61.0006565
+
+location	Sydney	22.534146	113.9707393
+location	Gold Coast	-28.0023731	153.4145987
+location	Ischgl	46.9862824	10.27451768796459
+location	Innsbruck	47.2654296	11.3927685
+location	Matrei am Brenner	47.1312496	11.4536634
+location	Strass im Zillertal	47.3920739	11.814221005450307
+location	Elbigenalp	47.2911905	10.414096136556129
+location	Aldrans	47.2505591	11.4472601
+location	Ramsau im Zillertal	47.1974668	11.891498742246394
+location	Steinach am Brenner	47.0907467	11.4665722
+location	Zams	47.19468165	10.513198211861656
+location	Seefeld in Tirol	47.3289241	11.1867187
+location	Bad Gastein	47.1144954	13.1352653
+location	Kematen in Tirol	47.2542856	11.2729463
+location	Laengenfeld	47.03293565	11.004346922383576
+location	St. Anton	47.1280162	10.2635498
+location	Sistrans	47.2364565	11.4488053
+location	Narayanganj	23.6238108	90.4999662
+location	Noakhali	22.5313205	91.1775744276286
+location	Companigonj	22.87168325	91.27743143154504
+location	Begumganj	22.9421436	91.0996725
+location	Kabirhat	22.8220772	91.1170328
+location	Gierle	51.2691146	4.866824652373806
+location	Kessel-Lo	50.8852456	4.7313734
+location	Huldenberg	50.7892736	4.5833958
+location	Queimados	-22.7156978	-43.555754
+location	Niteroi	-22.8832371	-43.1154552
+location	Rio de Janeiro	-22.9110137	-43.2093727
+location	São Paulo	-23.5506507	-46.6333824
+location	Resende	-22.4683626	-44.4463494
+location	Jaru	-10.431826	-62.478769
+location	Porto Velho	-8.7494525	-63.8735438
+location	Brasilia	-15.7934036	-47.8823172
+location	Americana	-22.7392463	-47.3306032
+location	Itatiba	-22.9965861	-46.8412042
+location	Mogi Das Cruzes	-23.5234284	-46.1926671
+location	Presidente Venceslau	-21.877116	-51.8451047
+location	Assis	-22.6620892	-50.420623
+location	Peruibe	-24.3218105	-46.9977452
+location	Guarujá	-23.9927768	-46.2558332
+location	Diadema	-23.681347	-46.62052
+location	Rio Claro	-22.4100108	-47.5603933
+location	Sao Bernardo do Campo	-23.7080345	-46.5506747
+location	Caieiras	-23.3644621	-46.7484765
+location	Maua	-23.6669527	-46.4616922
+location	Hortolandia	-22.85833	-47.22
+location	Osasco	-23.5324859	-46.7916801
+location	Barueri	-23.5112184	-46.8764612
+location	Itapecerica Da Serra	-23.7176303	-46.8492435
+location	Sao Vicente	-23.9603686	-46.3847024
+location	Pereira	4.8142912	-75.6946451
+location	Cartagena	10.4195841	-75.5271224
+location	Armenia	4.536307	-75.6723751
+location	Santa Marta	11.2422289	-74.2055606
+location	Valledupar	10.4650361	-73.2528426
+location	Zipaquira	5.0234748	-74.0039818
+location	Barranquilla	10.9799669	-74.8013085
+location	Togui	5.917044199999999	-73.4964349053907
+location	Villavicencio	4.1315113	-73.6206667
+location	Cali	3.4517923	-76.5324943
+location	Anserma	5.2337519	-75.7856623
+location	Palmira	3.5308373	-76.2988048
+location	Soacha	4.5821279	-74.2197205
+location	Madrid CO	4.77404575	-74.28145543477225
+location	Santa Sofia	5.7333558	-73.60500527932183
+location	Ipiales	0.8278641	-77.6402069
+location	Quibdo	5.6845709	-76.6540463
+location	Neiva	2.9263127	-75.2891733
+location	Funza	4.7163036	-74.2122206
+location	Buga	3.9000578	-76.302013
+location	Ibague	4.4446595	-75.2430012
+location	Medellin	6.2443382	-75.573553
+location	Envigado	6.1701348	-75.587415
+location	Itagui	6.1724352	-75.6093254
+location	Sabaneta	6.13882045	-75.60974996866784
+location	Choconta	5.11596835	-73.68657821135476
+location	Tulua	4.0856667	-76.1972779
+location	Trujillo	4.233587699999999	-76.33634485111209
+location	Andalucia	4.13615295	-76.1575945087867
+location	Jamundi	3.22475455	-76.618841826802
+location	El Cerrito	3.68715065	-76.33913464386961
+location	Santana	6.055599150000001	-73.48209236741033
+location	Cajica	4.9172215	-74.0255474
+location	Cucuta	7.8971458	-72.5080387
+location	Dosquebradas	4.839737400000001	-75.67269689398901
+location	Yumbo	3.5834664	-76.4952223
+location	Pacho	5.1319719	-74.1580379
+location	Tierralta	7.84705275	-76.22486782269812
+location	Monteria	8.7558921	-75.887029
+location	Manizales	5.0681104	-75.5173198
+location	Bucaramanga	7.1114611	-73.1172869
+location	Popayan	2.4420181	-76.6062744
+location	Bello	6.334997	-75.5582665
+location	Barrancabermeja	7.0673313	-73.8525627
+location	San Rafael de Alajuela	9.9717062	-84.2095349
+location	San Rafael Heredia	9.9970415	-84.1152707
+location	La Union	42.8678447	-75.8871382
+location	Orotina	9.8925919	-84.59950059951379
+location	Escazu	9.9199094	-84.1403284
+location	Alajuela	10.6916755	-84.7561318
+location	San Jose	43.619533	4.0717974
+location	Grecia	10.092686050000001	-84.29900706155357
+location	Curridabat	9.9251453	-84.0317621
+location	Perez Zeledon	9.33921865	-83.64458558172157
+location	Nicoya	39.643383	-119.881011
+location	Desamparados	9.811982700000002	-84.06924175057618
+location	Tarrazu	9.5828436	-84.06627947554715
+location	Kynice	49.7391797	15.3601396
+location	Prague-Miskovice	50.1562543	14.5425652
+location	Litovel	49.7014789	17.0761064
+location	Uhersky Brod	49.0253139	17.6464437
+location	Fryšták	49.2852044	17.6834631
+location	Plzeň	49.7477415	13.3775249
+location	Všebořice	50.6837604	13.991913
+location	Domažlice	49.4407069	12.9298338
+location	Quito	-0.2201641	-78.5123274
+location	Babahoyo	-1.8009022	-79.5338214
+location	Riobamba	-1.6731483	-78.6486465
+location	Cayambe	-0.0038813	-78.04818008344479
+location	Ibarra	0.3478421	-78.1173588
+location	Urcuqui	0.4172921	-78.1941499
+location	Paris	48.8566969	2.3514616
+location	Brest	48.3905283	-4.4860088
+location	Rennes	48.1113387	-1.6800198
+location	Ploudalmezeau	48.5410278	-4.6576826
+location	Montreux-Chateau	47.6080288	7.0031458
+location	Thise	47.2836567	6.0790996
+location	Dijon	47.3215806	5.0414701
+location	Chalon sur Saone	46.7888997	4.8529605
+location	Tours	47.3900474	0.6889268
+location	Abondant	48.7822754	1.4411738
+location	Reims	49.2577886	4.031926
+location	Strasbourg	48.584614	7.7507127
+location	Woippy	49.1515848	6.1519224
+location	Spicheren	49.1923675	6.9677794
+location	Gondrecourt-le-Chateau	48.5126996	5.5060685
+location	Ham Sous Varsberg	49.1792357	6.6467482
+location	Nancy	48.6937223	6.1834097
+location	Compiègne	49.4179497	2.8263171
+location	Crépy en Valois	49.2358509	2.8900507
+location	Chateau-Thierry	49.0457362	3.4027111
+location	Crouy en Thelle	49.2149242	2.3222507
+location	Nogent-l'Artaud	48.9649223	3.3185557
+location	Pontoise	49.0508845	2.1008067
+location	Garches	48.8437486	2.1853699
+location	Longjumeau	48.6943793	2.2953297
+location	Levallois-Perret	48.892956	2.2881683
+location	Saint Germain en Laye	48.8990413	2.0942792
+location	Meudon la Forêt	48.7876528	2.2281028
+location	Vanves	48.8212037	2.289259
+location	Orsay	48.699184	2.187457
+location	Gennevilliers	48.9254221	2.2940122
+location	Saint-Thibault-des-Vignes	48.8683837	2.6877273
+location	Asnières-sur-Seine	48.9105948	2.2890454
+location	Noisy le Roi	48.8439572	2.0645422
+location	Le Pecq	48.8976716	2.1026594
+location	Juvisy-sur-Orge	48.6904063	2.373809
+location	Seine-Port	48.557336	2.5512837
+location	Guyancourt	48.7709414	2.0706084
+location	Cergy	49.0527528	2.0388736
+location	Moussy Le Neuf	49.0647805	2.6014953
+location	Montigny le Bretonneux	48.7698937	2.0381228
+location	Colombes	48.922788	2.2543577
+location	Rouen	49.4404591	1.0939658
+location	Carentan	49.30329	-1.2463444
+location	Nantes	47.2186371	-1.5541362
+location	Fuzhou	27.9511188	116.3530413
+location	Livadeia	38.5628868	22.7884175
+location	Guangzhou	23.1301964	113.2592945
+location	Hangzhou	30.2013505	115.0093786
+location	Zhengzhou	34.7591877	113.6524076
+location	Hong Kong	22.2793278	114.1628131
+location	Budapest	47.4983815	19.0404707
+location	Surat	21.1864607	72.8081281
+location	Kodinar	20.795759	70.7045453
+location	Rajkot	22.3051991	70.8028335
+location	Jamnagar	22.4732415	70.0552102
+location	Vadodara	22.2973142	73.1942567
+location	Dahod	22.8358542	74.2556782
+location	Ahmedabad	23.0216238	72.5797068
+location	Bayad	23.2198901	73.2147463
+location	Prantij	23.39009355	72.83209868487472
+location	Himatnagar	23.5971246	72.9588273
+location	Gandhinagar	23.2232877	72.6492267
+location	Kadi	23.2969449	72.3306381
+location	Kalol	23.2452165	72.4966223
+location	Savli	22.562511	73.2230996
+location	Nadiad	22.6895073	72.8715199
+location	Kapadvanj	23.0232402	73.0727531
+location	Mahemdavad	22.8245152	72.7533562
+location	Dhanera	24.5078597	72.0234504
+location	Palanpur	24.1709794	72.4366375
+location	Kheda	22.75	72.833333
+location	Bhuj	23.2472446	69.668339
+location	Savali	22.4429162	73.326354
+location	Dahegam	23.168191	72.8223276
+location	Bardoli	21.1220023	73.1135988
+location	Modasa	23.4634245	73.2990631
+location	Talod	23.3530428	72.9510592
+location	Chuda	22.4815114	71.6881728
+location	Junagadh	21.5174104	70.4642754
+location	Jetpur	21.7543725	70.6189391
+location	Gondal	21.9721823	70.7955235
+location	Olpad	21.3360054	72.7516479
+location	Daskroi	22.95840725	72.71852429515411
+location	Dholka	22.726607	72.4411863
+location	Botad	22.1686	71.6685
+location	Bhavnagar	21.7718836	72.1416449
+location	Ghogha	21.6874043	72.2761717
+location	Mahuva	21.0914409	71.7621979
+location	Mandvi	21.254926	73.3046407
+location	Kamrej	21.2797773	72.948269
+location	Adajan	21.2651204	72.84991282218647
+location	Mehsana	23.601262849999998	72.37415155167554
+location	Mansa	23.425103	72.6583024
+location	Una	20.8198898	71.0391641
+location	Pune	18.6452489	73.92318563785392
+location	Ahmednagar	19.162772500000003	74.85802430085195
+location	Kolhapur	16.7028412	74.2405329
+location	Sangli	16.8502534	74.5948885
+location	Mumbai	18.9387711	72.8353355
+location	Jaipur	26.916194	75.820349
+location	Nalgonda	16.8579636	79.21749353315548
+location	Lucknow	26.8381	80.9346001
+location	Azamgarh	26.02269675	83.02887343114848
+location	Farrukhabad	27.43719385	79.48912946503123
+location	Lakhimpur	27.985060150000002	80.75384538357649
+location	Hardoi	27.33857665	80.0975264641719
+location	Kanpur	26.4609135	80.3217588
+location	Kannauj	26.999697400000002	79.68861212775874
+location	Shahjahanpur	27.912633149999998	79.74656294869826
+location	Moradabad	28.8638424	78.80577833091104
+location	Sambhal	28.61875255	78.55087405404804
+location	Agra	27.1752554	78.0098161
+location	Pilibhit	28.495207649999998	80.10754080018077
+location	Barabanki	26.93823105	81.38609761204991
+location	Bandung	-6.9344694	107.6049539
+location	Tangerang	-6.1760311	106.6384468
+location	Aichi	35.1219442	137.081740723195
+location	Kyoto	35.021041	135.7556075
+location	Tokyo	35.6828387	139.7594549
+location	Huaian	33.5524785	119.1075773
+location	Pingxiang	27.6603206	113.8830806
+location	Jingzhou	30.3543831	112.1880958
+location	Jiujiang	29.384461350000002	115.68049202188841
+location	Hawali	29.295012	48.0866136
+location	Lishui	28.4704064	119.9184297
+location	Antananarivo	-18.9210402	47.5024721
+location	Gomez Palacios	25.8436091	-100.3947762
+location	Kathmandu	22.5469919	114.1204861
+location	San Francisco PA	39.8421686	-77.2012939
+location	Las Cumbres	9.092346150000001	-79.55562679912214
+location	Pedregal	9.0728036	-79.4265921
+location	Betania	18.217216	-66.045165
+location	Juan Díaz	8.9818212	-79.5678952
+location	Bella Vista	39.6171315	2.6164389
+location	Alcalde Díaz	9.1174831	-79.5408882
+location	Ernesto Córdoba	9.0789471	-79.5247635
+location	Pacora	9.0827803	-79.2885792
+location	Ancón	35.7153183	-104.4255383
+location	La Chorrera	8.87829125	-79.77992757151237
+location	Arraiján	8.951808100000001	-79.61737077440414
+location	Parque Lefevre	9.0172563	-79.4898456
+location	Don Bosco	9.0520598	-79.4147638
+location	Río Abajo	9.0150235	-79.5029544
+location	Pueblo Nuevo	9.0172602	-79.5141619
+location	Chepo	7.7292577	-80.821938
+location	El Crisol	9.0437642	-79.47173079999999
+location	Guadalupe	8.96160115	-79.65797668055201
+location	Las Mañanitas	9.0931933	-79.4038612
+location	Tocumen	9.0920363	-79.3816691
+location	Calidonia	8.9684964	-79.5360082
+location	Burunga	8.9682966	-79.664815
+location	Parque Real	9.0735975	-79.41659881887493
+location	Veracruz	8.8908261	-79.62665832242187
+location	Chilibre	9.1547422	-79.6214627
+location	El Chorrillo	8.9499896	-79.5440621
+location	Aligandí	9.222376749999999	-78.02332498166476
+location	Focsani	45.697274	27.1856921
+location	Iasi	47.3417161	25.3449082
+location	Guediawaye	14.7771207	-17.390071
+location	Velingara	13.147235	-14.107583
+location	Mbao	14.7394106	-17.317788501923076
+location	Yeumbeul	14.7776679	-17.3581316
+location	Sangalkam	14.779304	-17.228261
+location	Pikine	14.751544	-17.396413
+location	Qingdao	36.0638034	120.3781372
+location	Shenzhen	22.555454	114.0543297
+location	Chengdu	30.6624205	104.0633219
+location	eThekwini	-29.861825	31.009909
+location	Umbilo	-29.8905556	30.9777778
+location	uThukela	-28.7446904	30.2224445
+location	uMgungundlovu	-29.52982	30.057047991912206
+location	iLembe	-29.240765	31.234110920000003
+location	Zululand	-27.897909900000002	31.293846335885597
+location	Ugu	-30.54723	30.29119696183432
+location	uMzinyathi	-28.0585234	30.3725385
+location	Amajuba	-27.7351566	29.961884968271626
+location	King Cetshwayo	-29.831183	30.9421007
+location	uMkhanyakude	-27.66203545	32.302957901869476
+location	Alcaniz	41.050254	-0.1329565
+location	Barcelona	41.3828939	2.1774322
+location	Bizkaia	43.238482000000005	-2.85163163999482
+location	Teruel	40.6005512	-0.9229451145789176
+location	Valencia	39.4697065	-0.3763353
+location	Zaragoza	41.6521342	-0.8809428
+location	Taipei	14.4522878	121.0073901
+location	Tianmen	30.6635516	113.1616191
+location	Los Angeles County	34.3155072	-118.2096814
+location	Snohomish County	48.0074736	-121.7304882
+location	Wuhan	30.5951051	114.2999353
+location	Yichun	27.81697	114.4112498
+location	Yingtan	28.2741176	117.034423
+location	Kunming	25.0437977	102.714338
+location	Santa Isabel	-23.3194222	-46.2271903
+location	Itariri	-24.2900711	-47.176151
+location	Guarulhos	-23.4430602	-46.524459
+location	Campinas	-22.90556	-47.06083
+location	Chia	4.8704614500000005	-74.03632158198437
+location	Tolemaida	4.2511484	-74.6449836
+location	Alajuelita	9.88904325	-84.10610329208212
+location	Heredia	10.3768307	-84.068391
+location	Guayaquil	-2.1899066	-79.887726
+location	Rostock	54.0784362	12.132504
+location	Dhandhuka	22.3816365	71.9791414
+location	Patan	23.77405735	71.68373465668734
+location	Khambhaliya	22.2176085	69.6578939
+location	Radhanpur	23.8315668	71.6103884
+location	Siddhpur	23.918279	72.3681846
+location	Surabaya	-7.2459717	112.7378266
+location	Pasuruan	-7.6419894	112.906694
+location	Samarinda	-0.5017804	117.1393089
+location	Manado	1.4900578	124.8408708
+location	Bari	41.1257843	16.8620293
+location	Brindisi	40.6362271	17.688500723698695
+location	Lecce	40.152217300000004	18.2260628338229
+location	Taranto	40.54881555	17.08058012454743
+location	Benevento	41.2476884	14.705941329939769
+location	Verona IT	45.1792801	11.313302
+location	Fenoarivo	-17.3820266	49.40696902268637
+location	Münster	51.904689	7.508544
+location	Tibas	9.9573776	-84.0860532
+

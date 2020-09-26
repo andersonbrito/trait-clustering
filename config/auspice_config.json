@@ -1,0 +1,83 @@
+{
+  "title": "SARS-CoV-2 trait clustering",
+  "build_url": "https://github.com/andersonbrito/trait_clustering",
+  "maintainers": [
+    {"name": "Anderson Brito (Grubaugh Lab)",
+     "url": "https://grubaughlab.com/"}
+  ],
+  "colorings": [
+    {
+      "key": "region_exposure",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "country_exposure",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "division_exposure",
+      "title": "Division",
+      "type": "categorical"
+    },
+    {
+      "key": "location",
+      "title": "Location",
+      "type": "categorical"
+    },
+    {
+      "key": "new_status",
+      "title": "Patient Status",
+      "type": "categorical"
+    },
+    {
+      "key": "pangolin_lineage",
+      "title": "Lineage",
+      "type": "categorical"
+    },
+    {
+      "key": "age",
+      "title": "Age",
+      "type": "continuous"
+    },
+    {
+      "key": "sex",
+      "title": "Sex",
+      "type": "ordinal"
+    },
+    {
+      "key": "author",
+      "title": "Authors",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "division_exposure",
+    "country_exposure",
+    "region_exposure"
+  ],
+  "display_defaults": {
+    "color_by": "country_exposure",
+    "distance_measure": "div",
+    "geo_resolution": "country",
+    "map_triplicate": true,
+    "branch_label": "aa"
+  },
+  "filters": [
+    "division_exposure",
+    "country_exposure",
+    "region_exposure",
+    "author",
+    "new_status",
+    "age",
+    "sex",
+    "originating_lab",
+    "submitting_lab"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}
