@@ -68,21 +68,17 @@ rule filter_metadata:
 		"""
 	input:
 		genomes = rules.add_sequences.output.sequences,
-		metadata1 = files.full_metadata,
-		metadata2 = files.metadata_lab
+		metadata = files.full_metadata,
 	output:
 		filtered_metadata = "pre-analyses/metadata_filtered.tsv",
-		renaming = "pre-analyses/rename.tsv",
 		sequences = "data/sequences.fasta"
 	shell:
 		"""
 		python3 scripts/filter_metadata.py \
 			--genomes {input.genomes} \
-			--metadata1 {input.metadata1} \
-			--metadata2 {input.metadata2} \
+			--metadata {input.metadata} \
 			--output1 {output.filtered_metadata} \
-			--output2 {output.renaming} \
-			--output3 {output.sequences}
+			--output2 {output.sequences}
 		"""
 
 
@@ -446,8 +442,7 @@ rule clean_all:
 		"config/colors.tsv",
 		"config/latlongs.tsv",
 		"pre-analyses/metadata_filtered.tsv",
-		"pre-analyses/temp_sequences.fasta",
-		"pre-analyses/rename.tsv"
+		"pre-analyses/temp_sequences.fasta"
 
 	shell:
 		"""
